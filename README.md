@@ -3,14 +3,16 @@ The codes are designed for the simulation study.
 # Setup
 
 We considered a mixed linear model $$y=Xb+e=X(\beta+u)+e\in\\mathbb{R}^5$$ where $X=((1,1,1,1,1)^\intercal, (0,1,2,3,4)^\intercal$ and $b$ represent the random intercept and slope, which satisfy $u\sim N(0, \Sigma)$ and  $e\sim N(0, \sigma_e^2I)$ where
-\begin{align*}
+
+$$
 \Sigma=
 \begin{pmatrix}
 \sigma_1^2 & \sigma_{12} \\
 \sigma_{12} & \sigma_2^2
 \end{pmatrix}\ .
-\end{align*}
-Let the parameters of interest be $\theta=(\sigma_1, \sigma_2, \sigma_{12}, \sigma_e, \beta_1, \beta_2)$. Eight response patterns are generated. The parent relations are randomly generated and remain fixed throughout the entire simulation. The mixture coefficients are all chosen as the first type. The propensity odds $O^r(l^r)$ are designed as functions of observed variables. The identifying assumption can be represented by the following graph.
+$$
+
+Let the parameters of interest be $\theta=(\sigma_1, \sigma_2, \sigma_{12}, \sigma_e, \beta_1, \beta_2)$. Eight response patterns are generated. The parent relations are randomly generated and remain fixed throughout the entire simulation. The mixture coefficients are all chosen as the first type. The propensity odds $$O^r(l^r)$$ are designed as functions of observed variables. The identifying assumption can be represented by the following graph.
 
 ![Uploading pattern-graph-sim.jpg…]()
 
