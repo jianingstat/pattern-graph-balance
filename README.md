@@ -2,7 +2,7 @@ The codes are designed for the simulation study.
 
 # Setup
 
-We considered a mixed linear model $$y=Xb+e=X(\beta+u)+e\in\bbR^5$$ where $X=((1,1,1,1,1)\tr, (0,1,2,3,4)\tr$ and $b$ represent the random intercept and slope, which satisfy $u\sim N(0, \Sigma)$ and  $e\sim N(0, \sigma_e^2I)$ where
+We considered a mixed linear model $$y=Xb+e=X(\beta+u)+e\in\\mathbb{R}^5$$ where $X=((1,1,1,1,1)\tr, (0,1,2,3,4)\tr$ and $b$ represent the random intercept and slope, which satisfy $u\sim N(0, \Sigma)$ and  $e\sim N(0, \sigma_e^2I)$ where
 \begin{align*}
 \Sigma=
 \begin{pmatrix}
